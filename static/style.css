@@ -1,6 +1,6 @@
 body {
     font-family: 'Blinker';
-    background-color: #f4f4f9; 
+    background-color: #2F2D3E; 
     margin: 0;
     padding: 20px;
     color: #333;
@@ -10,20 +10,19 @@ h1, h2 {
     color: #0275d8;
 }
 
-title {
+.title {
     position: absolute;
     width: 293px;
     height: 150px;
     left: calc(50% - 293px/2 - 0.5px);
     top: 105px;
-
-    font-family: 'Blinker';
+    font-family: 'Blinker', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 96px;
     line-height: 115px;
-
     color: #FFFFFF;
+    text-align: center; /* Ensures the text is centered */
 }
 
 form {
