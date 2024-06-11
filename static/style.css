@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #f4f4f9; 
     margin: 0;
     padding: 20px;
     color: #333;
@@ -123,26 +123,7 @@ line-height: 115px;
 color: #FFFFFF;
 
 
-
-/* 1950 */
-
-position: absolute;
-width: 293px;
-height: 150px;
-left: calc(50% - 293px/2 - 360.5px);
-top: 490px;
-
-font-family: 'Blinker';
-font-style: normal;
-font-weight: 700;
-font-size: 96px;
-line-height: 115px;
-
-color: #FFFFFF;
-
-
-
-/* Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. */
+/* Short description about the author. */
 
 position: absolute;
 width: 1075px;
@@ -192,7 +173,7 @@ color: #FFFFFF;
 
 
 
-/* Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. */
+/* Book description. */
 
 position: absolute;
 width: 661px;
@@ -249,7 +230,7 @@ color: #FFFFFF;
 
 
 
-/* Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. */
+/* Book description.  */
 
 position: absolute;
 width: 661px;
@@ -585,10 +566,8 @@ flex-grow: 0;
 width: 45px;
 height: 24px;
 
-/* Small text
+/* Small text */
 
-Small text
-*/
 font-family: 'Inter';
 font-style: normal;
 font-weight: 500;
@@ -602,6 +581,7 @@ color: #000000;
 
 
 /* Inside auto layout */
+
 flex: none;
 order: 0;
 flex-grow: 0;
