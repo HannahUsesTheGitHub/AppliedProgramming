@@ -10,6 +10,22 @@ h1, h2 {
     color: #0275d8;
 }
 
+title {
+    position: absolute;
+    width: 293px;
+    height: 150px;
+    left: calc(50% - 293px/2 - 0.5px);
+    top: 105px;
+
+    font-family: 'Blinker';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 115px;
+
+    color: #FFFFFF;
+}
+
 form {
     background: #fff;
     padding: 10px 20px;
@@ -79,6 +95,7 @@ a:hover {
 
 /* THIS IS THE FIGMA CSS CODE: */
 
+/*
 /* Desktop - 1 */
 
 position: relative;
@@ -585,4 +602,4 @@ color: #000000;
 flex: none;
 order: 0;
 flex-grow: 0;
-
+*/
