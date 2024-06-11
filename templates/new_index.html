@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Page</title>
+    <style>
+        body {
+            position: relative;
+            width: 1440px;
+            height: 1024px;
+            background: #2F2D3E;
+            margin: 0;
+            padding: 0;
+        }
+
+        .author {
+            position: absolute;
+            width: 293px;
+            height: 150px;
+            left: calc(50% - 293px/2 - 0.5px);
+            top: 105px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 115px;
+            color: #FFFFFF;
+        }
+
+        .year-1950 {
+            position: absolute;
+            width: 293px;
+            height: 150px;
+            left: calc(50% - 293px/2 - 360.5px);
+            top: 490px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 115px;
+            color: #FFFFFF;
+        }
+
+        .author-description {
+            position: absolute;
+            width: 1075px;
+            height: 160px;
+            left: calc(50% - 1075px/2 - 0.5px);
+            top: 228px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        .group-1 {
+            position: absolute;
+            width: 787px;
+            height: 152px;
+            left: 339px;
+            top: 614px;
+        }
+
+        .title-1 {
+            position: absolute;
+            width: 126px;
+            height: 51px;
+            left: calc(50% - 126px/2 - 192px);
+            top: 614px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+
+        .book-description-1 {
+            position: absolute;
+            width: 661px;
+            height: 101px;
+            left: calc(50% - 661px/2 + 75.5px);
+            top: 665px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+        .rectangle-1 {
+            position: absolute;
+            width: 104px;
+            height: 138px;
+            left: 339px;
+            top: 628px;
+            background: #D9D9D9;
+        }
+
+        .group-2 {
+            position: absolute;
+            width: 787px;
+            height: 152px;
+            left: 339px;
+            top: 793px;
+        }
+
+        .title-2 {
+            position: absolute;
+            width: 126px;
+            height: 51px;
+            left: calc(50% - 126px/2 - 192px);
+            top: 793px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+
+        .book-description-2 {
+            position: absolute;
+            width: 661px;
+            height: 101px;
+            left: calc(50% - 661px/2 + 75.5px);
+            top: 844px;
+            font-family: 'Blinker', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+                 font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+
+        .rectangle-2 {
+            position: absolute;
+            width: 104px;
+            height: 138px;
+            left: 339px;
+            top: 807px;
+            background: #D9D9D9;
+        }
+
+        .icon-chevron_left {
+            position: absolute;
+            width: 67px;
+            height: 67px;
+            left: 47px;
+            top: 35px;
+        }
+
+        .chevron-left-thin {
+            position: absolute;
+            left: 28.9%;
+            right: 31.54%;
+            top: 14.88%;
+            bottom: 14.88%;
+            background: #D9D9D9;
+        }
+
+        .search-icon {
+            position: absolute;
+            width: 67px;
+            height: 67px;
+            left: 146px;
+            top: 41px;
+        }
+
+        .search-vector {
+            position: absolute;
+            left: 9.29%;
+            right: 9.37%;
+            top: 9.29%;
+            bottom: 9.37%;
+            background: #D9D9D9;
+        }
+
+        .bookmarks-icon {
+            position: absolute;
+            width: 67px;
+            height: 67px;
+            left: 1327px;
+            top: 35px;
+        }
+
+        .bookmarks-vector {
+            position: absolute;
+            left: 18.75%;
+            right: 18.75%;
+            top: 9.38%;
+            bottom: 9.37%;
+            background: #D9D9D9;
+        }
+
+        .bookmark-simple {
+            position: absolute;
+            width: 54px;
+            height: 67px;
+            left: 1160px;
+            top: 652px;
+        }
+
+        .bookmark-simple-vector {
+            position: absolute;
+            left: 21.88%;
+            right: 21.88%;
+            top: 12.5%;
+            bottom: 9.38%;
+            background: #D9D9D9;
+        }
+
+        .bookmark-simple-2 {
+            position: absolute;
+            width: 54px;
+             height: 67px;
+            left: 1160px;
+            top: 842px;
+        }
+
+        .bookmark-simple-vector-2 {
+            position: absolute;
+            left: 21.88%;
+            right: 21.88%;
+            top: 12.5%;
+            bottom: 9.38%;
+            background: #FFC700;
+        }
+
+        .frame-15295 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 16px 14px;
+            gap: 8px;
+            position: absolute;
+            width: 379px;
+            height: 50px;
+            left: 530px;
+            top: 407px;
+            background: #F5F5F5;
+            border-radius: 10px;
+        }
+
+        .tab-list {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 8px 8px 0px;
+            gap: 8px;
+            width: 379px;
+            height: 48px;
+            background: #F5F5F5;
+            border-radius: 12px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .frame-52 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 136px;
+            height: 40px;
+            background: #9774CE;
+            border-radius: 8px;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .chronological {
+            width: 104px;
+            height: 24px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+               }
+
+        .frame-15295-2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 134px;
+            height: 40px;
+            background: #F5F5F5;
+            border-radius: 8px;
+        }
+
+        .page-number {
+            width: 102px;
+            height: 24px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .frame-15296 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 8px 16px;
+            gap: 8px;
+            width: 77px;
+            height: 40px;
+            background: #F5F5F5;
+            border-radius: 8px;
+            flex: none;
+            order: 2;
+            flex-grow: 0;
+        }
+
+        .rating {
+            width: 45px;
+            height: 24px;
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            display: flex;
+            align-items: center;
+            color: #000000;
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="author">Author</div>
+    <div class="year-1950">1950</div>
+    <div class="author-description">Short description about the author.</div>
+    <div class="group-1">
+        <div class="title-1">Title #1</div>
+        <div class="book-description-1">Book description.</div>
+        <div class="rectangle-1"></div>
+    </div>
+    <div class="group-2">
+        <div class="title-2">Title #2</div>
+        <div class="book-description-2">Book description.</div>
+        <div class="rectangle-2"></div>
+    </div>
+    <div class="icon-chevron_left"></div>
+    <div class="chevron-left-thin"></div>
+    <div class="search-icon"></div>
+    <div class="search-vector"></div>
+    <div class="bookmarks-icon"></div>
+    <div class="bookmarks-vector"></div>
+    <div class="bookmark-simple"></div>
+    <div class="bookmark-simple-vector"></div>
+    <div class="bookmark-simple-2"></div>
+    <div class="bookmark-simple-vector-2"></div>
+
+    <div class="frame-15295">
+        <div class="chronological">chronological</div>
+        <div class="tab-list"></div>
+        <div class="frame-15296">
+            <div class="rating">rating</div>
+        </div>
+    </div>
+    <div class="frame-52"></div>
+    <div class="frame-15295-2"></div>
+    <div class="page-number">page number</div>
+</body>
+</html>
