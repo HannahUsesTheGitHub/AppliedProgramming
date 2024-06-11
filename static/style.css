@@ -76,3 +76,533 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* THIS IS THE FIGMA CSS CODE: */
+
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #2F2D3E;
+
+
+/* Author */
+
+position: absolute;
+width: 293px;
+height: 150px;
+left: calc(50% - 293px/2 - 0.5px);
+top: 105px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 115px;
+
+color: #FFFFFF;
+
+
+
+/* 1950 */
+
+position: absolute;
+width: 293px;
+height: 150px;
+left: calc(50% - 293px/2 - 360.5px);
+top: 490px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 115px;
+
+color: #FFFFFF;
+
+
+
+/* 1950 */
+
+position: absolute;
+width: 293px;
+height: 150px;
+left: calc(50% - 293px/2 - 360.5px);
+top: 490px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 700;
+font-size: 96px;
+line-height: 115px;
+
+color: #FFFFFF;
+
+
+
+/* Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. Short description about the author. */
+
+position: absolute;
+width: 1075px;
+height: 160px;
+left: calc(50% - 1075px/2 - 0.5px);
+top: 228px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+
+/* Group 1 */
+
+position: absolute;
+width: 787px;
+height: 152px;
+left: 339px;
+top: 614px;
+
+
+
+/* Title #1 */
+
+position: absolute;
+width: 126px;
+height: 51px;
+left: calc(50% - 126px/2 - 192px);
+top: 614px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. */
+
+position: absolute;
+width: 661px;
+height: 101px;
+left: calc(50% - 661px/2 + 75.5px);
+top: 665px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 104px;
+height: 138px;
+left: 339px;
+top: 628px;
+
+background: #D9D9D9;
+
+
+/* Group 2 */
+
+position: absolute;
+width: 787px;
+height: 152px;
+left: 339px;
+top: 793px;
+
+
+
+/* Title #2 */
+
+position: absolute;
+width: 126px;
+height: 51px;
+left: calc(50% - 126px/2 - 192px);
+top: 793px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 48px;
+
+color: #FFFFFF;
+
+
+
+/* Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. Book description. */
+
+position: absolute;
+width: 661px;
+height: 101px;
+left: calc(50% - 661px/2 + 75.5px);
+top: 844px;
+
+font-family: 'Blinker';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 104px;
+height: 138px;
+left: 339px;
+top: 807px;
+
+background: #D9D9D9;
+
+
+/* Icon/Chevron_Left */
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 47px;
+top: 35px;
+
+
+
+/* chevron_left_thin */
+
+position: absolute;
+left: 28.9%;
+right: 31.54%;
+top: 14.88%;
+bottom: 14.88%;
+
+background: #D9D9D9;
+
+
+/* MagnifyingGlass
+
+search, find, locate, query, inspect, system &amp; devices
+*/
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 146px;
+top: 41px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 9.29%;
+right: 9.37%;
+top: 9.29%;
+bottom: 9.37%;
+
+background: #D9D9D9;
+
+
+/* Bookmarks
+
+reading, reader, novel, story, placeholder, favorites, favorited, library, education
+*/
+
+position: absolute;
+width: 67px;
+height: 67px;
+left: 1327px;
+top: 35px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 18.75%;
+right: 18.75%;
+top: 9.38%;
+bottom: 9.37%;
+
+background: #D9D9D9;
+
+
+/* BookmarkSimple
+
+reading, reader, novel, story, placeholder, favorites, favorited, library, education
+*/
+
+position: absolute;
+width: 54px;
+height: 67px;
+left: 1160px;
+top: 652px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 12.5%;
+bottom: 9.38%;
+
+background: #D9D9D9;
+
+
+/* BookmarkSimple
+
+reading, reader, novel, story, placeholder, favorites, favorited, library, education
+*/
+
+position: absolute;
+width: 54px;
+height: 67px;
+left: 1160px;
+top: 842px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 12.5%;
+bottom: 9.38%;
+
+background: #D9D9D9;
+
+
+/* BookmarkSimple
+
+reading, reader, novel, story, placeholder, favorites, favorited, library, education
+*/
+
+position: absolute;
+width: 54px;
+height: 67px;
+left: 1160px;
+top: 842px;
+
+
+
+/* Vector */
+
+position: absolute;
+left: 21.88%;
+right: 21.88%;
+top: 12.5%;
+bottom: 9.38%;
+
+background: #FFC700;
+
+
+/* Frame 15295 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px 14px;
+gap: 8px;
+
+position: absolute;
+width: 379px;
+height: 50px;
+left: 530px;
+top: 407px;
+
+background: #F5F5F5;
+border-radius: 10px;
+
+
+/* 05 Tab List */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px 8px 0px;
+gap: 8px;
+
+width: 379px;
+height: 48px;
+
+background: #F5F5F5;
+border-radius: 12px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 52 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 136px;
+height: 40px;
+
+background: #9774CE;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* chronological */
+
+width: 104px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 15295 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 134px;
+height: 40px;
+
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* page number */
+
+width: 102px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* Frame 15296 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 77px;
+height: 40px;
+
+background: #F5F5F5;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+/* rating */
+
+width: 45px;
+height: 24px;
+
+/* Small text
+
+Small text
+*/
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
